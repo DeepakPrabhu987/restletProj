@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1277" started-at="2017-08-26T16:35:35Z" finished-at="2017-08-26T16:35:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1277" started-at="2017-08-26T16:35:35Z" finished-at="2017-08-26T16:35:37Z">
+      <class name="com.restAssured.com.restAssured.Deepak.restAssuredConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restAssuredConfig@4f933fd1]" name="beforeSuite" is-config="true" duration-ms="287" started-at="2017-08-26T22:05:35Z" finished-at="2017-08-26T22:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- com.restAssured.com.restAssured.Deepak.restAssuredConfig -->
+      <class name="com.restAssured.com.restAssured.Deepak.restTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@548a9f61]" name="f" duration-ms="1265" started-at="2017-08-26T22:05:35Z" finished-at="2017-08-26T22:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.restAssured.com.restAssured.Deepak.restTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
