@@ -1,24 +1,46 @@
 package com.restAssured.com.restAssured.Deepak;
 
-import org.apache.http.client.config.RequestConfig;
-import org.testng.annotations.DataProvider;
+import java.util.List;
+
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-import io.restassured.config.RestAssuredConfig;
-import io.restassured.specification.RequestSpecification;
-
-import static io.restassured.RestAssured.*;
+import bin.BaseClass;
+import bin.RestResponse;
+import bin.Result;
+import io.restassured.mapper.ObjectMapperType;
+import io.restassured.response.Response;
 
 public class restTest {
 	
-public	String country;
 	
+
+RestAssuredConfiguration restSpec = new RestAssuredConfiguration();
+
 
   @Test
   public void restAssuredTest() {
 
-	System.out.println(given().queryParam("text", "").get(Endpoint.QUERY_PARAM).asString());
+Response  r = restSpec.getResponseType().queryParam("text", "pradesh").get(Endpoint.QUERY_PARAM);
+BaseClass b = r.as(BaseClass.class, ObjectMapperType.GSON);
+SoftAssert softAssert = new SoftAssert();
 
-	  
+List<Result> items = b.getRestResponse().getResult();
+
+for(Result item: items)
+{
+	
+	softAssert.assertTrue(item.getCapital().equalsIgnoreCase("Bhopal"), "I got passed");
+	
+	
+	
+	
+	
+}
+
+	
+	
+	
+
   }
 }

@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3004" started-at="2017-08-26T19:39:59Z" finished-at="2017-08-26T19:40:02Z">
+  <suite name="Default suite" duration-ms="1456" started-at="2017-08-27T19:09:34Z" finished-at="2017-08-27T19:09:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3004" started-at="2017-08-26T19:39:59Z" finished-at="2017-08-26T19:40:02Z">
-      <class name="com.restAssured.com.restAssured.Deepak.restAssuredConfig">
-        <test-method status="PASS" signature="getRestAssuredSpecifications()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restAssuredConfig@1593948d]" name="getRestAssuredSpecifications" is-config="true" duration-ms="295" started-at="2017-08-27T01:09:59Z" finished-at="2017-08-27T01:09:59Z">
+    <test name="Default test" duration-ms="1456" started-at="2017-08-27T19:09:34Z" finished-at="2017-08-27T19:09:35Z">
+      <class name="com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration">
+        <test-method status="PASS" signature="getRestAssuredSpecifications()[pri:0, instance:com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration@2b98378d]" name="getRestAssuredSpecifications" is-config="true" duration-ms="290" started-at="2017-08-28T00:39:34Z" finished-at="2017-08-28T00:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRestAssuredSpecifications -->
-      </class> <!-- com.restAssured.com.restAssured.Deepak.restAssuredConfig -->
+      </class> <!-- com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration -->
       <class name="com.restAssured.com.restAssured.Deepak.restTest">
-        <test-method status="PASS" signature="restAssuredTest()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@1b604f19]" name="restAssuredTest" duration-ms="2992" started-at="2017-08-27T01:09:59Z" finished-at="2017-08-27T01:10:02Z">
+        <test-method status="PASS" signature="restAssuredTest()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@475530b9]" name="restAssuredTest" duration-ms="1445" started-at="2017-08-28T00:39:34Z" finished-at="2017-08-28T00:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- restAssuredTest -->
