@@ -6,6 +6,7 @@
       <class name="com.restAssured.com.restAssured.Deepak.restTest">
         <methods>
           <include name="restAssuredTest"/>
+          <include name="before"/>
         </methods>
       </class> <!-- com.restAssured.com.restAssured.Deepak.restTest -->
     </classes>

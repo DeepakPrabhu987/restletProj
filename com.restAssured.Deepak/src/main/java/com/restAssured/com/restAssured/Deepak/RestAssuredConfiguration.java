@@ -1,5 +1,7 @@
 package com.restAssured.com.restAssured.Deepak;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.BeforeSuite;
 
 import io.restassured.RestAssured;
@@ -7,9 +9,11 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+
+
 public class RestAssuredConfiguration {
 	
-
+	
 
   @BeforeSuite
   public void getRestAssuredSpecifications() {
@@ -22,7 +26,7 @@ public class RestAssuredConfiguration {
  
 	public RequestSpecification getResponseType(){
 		
-	 
+
 		return RestAssured.given().contentType(ContentType.JSON);
 		
 	}

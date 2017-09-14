@@ -2,22 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1456" started-at="2017-08-27T19:09:34Z" finished-at="2017-08-27T19:09:35Z">
+  <suite name="Default suite" duration-ms="1885" started-at="2017-09-13T19:56:03Z" finished-at="2017-09-13T19:56:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1456" started-at="2017-08-27T19:09:34Z" finished-at="2017-08-27T19:09:35Z">
-      <class name="com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration">
-        <test-method status="PASS" signature="getRestAssuredSpecifications()[pri:0, instance:com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration@2b98378d]" name="getRestAssuredSpecifications" is-config="true" duration-ms="290" started-at="2017-08-28T00:39:34Z" finished-at="2017-08-28T00:39:34Z">
+    <test name="Default test" duration-ms="1885" started-at="2017-09-13T19:56:03Z" finished-at="2017-09-13T19:56:05Z">
+      <class name="com.restAssured.com.restAssured.Deepak.restTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@5e3a8624]" name="before" is-config="true" duration-ms="0" started-at="2017-09-14T01:26:03Z" finished-at="2017-09-14T01:26:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getRestAssuredSpecifications -->
-      </class> <!-- com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration -->
-      <class name="com.restAssured.com.restAssured.Deepak.restTest">
-        <test-method status="PASS" signature="restAssuredTest()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@475530b9]" name="restAssuredTest" duration-ms="1445" started-at="2017-08-28T00:39:34Z" finished-at="2017-08-28T00:39:35Z">
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="restAssuredTest()[pri:0, instance:com.restAssured.com.restAssured.Deepak.restTest@5e3a8624]" name="restAssuredTest" duration-ms="1873" started-at="2017-09-14T01:26:03Z" finished-at="2017-09-14T01:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- restAssuredTest -->
       </class> <!-- com.restAssured.com.restAssured.Deepak.restTest -->
+      <class name="com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration">
+        <test-method status="PASS" signature="getRestAssuredSpecifications()[pri:0, instance:com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration@1bce4f0a]" name="getRestAssuredSpecifications" is-config="true" duration-ms="287" started-at="2017-09-14T01:26:03Z" finished-at="2017-09-14T01:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRestAssuredSpecifications -->
+      </class> <!-- com.restAssured.com.restAssured.Deepak.RestAssuredConfiguration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
